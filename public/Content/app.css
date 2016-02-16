@@ -1,1 +1,37 @@
-/*custom css file*/
+/*Kateryna Bilokhvost css file*/
+body {
+	background-color: #fefbf5; 
+}
+
+p {
+	color: #666666; 
+    font-size: 1.4em; 
+}
+
+li {
+    list-style-type: none;
+    }
+
+ul li{
+  display: inline;
+}
+
+.main{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.index{
+    background-image: url('../images/toronto.gif')
+}
+.about{
+    background-color:#850DFF; 
+    margin-top: 1000px;
+}
+.contact{
+    background: linear-gradient(to right, #c5deea 0%,#8abbd7 31%,#066dab 100%);
+}
