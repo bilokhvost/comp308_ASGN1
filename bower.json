@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio (Bilokhvost)",
+  "description": "Assignment 1 for COMP308",
+  "main": "",
+  "authors": [
+    "Kateryna Bilokhvost"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bilokhvost/comp308_ASGN1",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
