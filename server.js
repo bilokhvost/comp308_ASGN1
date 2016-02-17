@@ -2,6 +2,7 @@
 
 /**
  * Module dependencies.
+ *Author: Kateryna Bilokhvost
  */
 
 var app = require('./app');

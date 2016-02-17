@@ -1,14 +1,56 @@
 <% include partials/header.ejs %>    
-    
+<!--   
+about.ejs
+Author: Kateryna Bilokhvost
+About and Services page template
+-->
     <!-- Main Content-->
+    
+    <div id="wrapper">
+    <div id="about" >
     <main class="container">
-        <h1><%= title %></h1>
-       <p> My name is Kateryna Bilokhvost and I am a graduate from Centennial College. During my tenure at Centennial College, 
-           I have developed major skills in the area of application development. 
-           These skills have developed my ability to perform a great variety of tasks.</p><p></p>
-             <div class="container marketing">
+        <h1 class="text-center"><%= title %></h1>
+        <h2 style="color:#660565;">Hello!</h2>
+       <p style="color:#78D18E;" align="center"> My name is Kateryna Bilokhvost and I am a graduate from Centennial College. During my tenure at Centennial College, 
+           I have developed major skills in the area of application development. </p>
+          <p style="color:#78D18E;" align="center"> These skills have developed my ability to perform a great variety of tasks.</p><p></p><br><br>         
+               <p class="text-center">
+            <img class="img-circle" src="images/pic.jpg" alt="my pic" width="240" height="240" ;></p>
+            <br><br>       
+   </div> 
 
-
+    
+   <div id="services">
+      <h1 class="text-center">Services</h1>
+ <br>
+        <p align="center">The followig services are provided: 
+        </p>
+        <br><br>
+        <div class="container marketing">
+              <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/db.jpg" alt="Database icon" width="140" height="140">
+          <h2>Database Development</h2>
+          <p>Design and deploy data table structures, forms, reports, and queries.</p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/java.png" alt="Java icon" width="140" height="140">
+          <h2>Coding</h2>
+          <p>Java, C#, JavaScript, HTML, CSS.</p>
+        
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/test.png" alt="Testing icon" width="140" height="140">
+          <h2>Testing</h2>
+          <p>Black box testing, white box testing, unit testing, integration testing, acceptance testing. Usability and Performance testing.</p>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+</div>
     </main>
+    </div>
+    </div>
     
 <% include partials/footer.ejs %>    

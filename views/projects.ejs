@@ -1,10 +1,61 @@
 <% include partials/header.ejs %>    
-    
+  <!--   
+projects.ejs
+Author: Kateryna Bilokhvost
+Project page template
+-->  
     <!-- Main Content-->
     <main class="container">
+          <div class="jumbotron">
+      <div class="container">
         <h1><%= title %></h1>
         <p>Here's a sample of some of my latest projects. 
         </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Database Diagram</h2>
+          <img src="images/dbase.jpg" alt="Database project image" width="140" height="140"><br><br>
+          <p>Successfully worked on the database structure for the Library project.</p>
+        
+        </div>
+        <div class="col-md-4">
+          <h2>Travel Web App</h2>
+          <img src="images/trip.png" alt="Travel Web App image" width="140" height="140"><br><br>
+          <p>Created of the web application for the travel agency.</p>
+         
+       </div>
+        <div class="col-md-4">
+          <h2>Test Cases</h2>
+          <img  src="images/tst.png" alt="Test documentation image" width="140" height="140"><br><br>
+          <p>Created test documentation and performed unit, integration and acceptance testing for the ERP solution.</p>
+     
+        </div>
+        
+               <div class="col-md-4">
+          <h2>Pizza App</h2>
+          <img src="images/order.png" alt="Order form icon " width="140" height="140"><br><br>
+          <p>Developed an application for the pizza restaurant. </p>
+        
+        </div>
+        <div class="col-md-4">
+          <h2>Use Case Diagrams</h2>
+          <img src="images/ucase.jpg" alt="Use case image" width="140" height="140"><br><br>
+          <p>Gathered user requirements for the Library application. </p>
+         
+       </div>
+        <div class="col-md-4">
+          <h2>Dragon Game</h2>
+          <img src="images/game.png" alt="Game image" width="140" height="140"><br><br>
+          <p>Developed a Dragon web game.</p>
+     
+        </div> 
+        
+      </div>
     </main>
     
 <% include partials/footer.ejs %>    

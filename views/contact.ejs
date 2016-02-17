@@ -1,28 +1,40 @@
 <% include partials/header.ejs %>
-
+<!--   
+contact.ejs
+Author: Kateryna Bilokhvost
+contact page template
+-->
     <!-- Main Content-->
     <body class = "contact">
     <main class="container">
+        <div class="jumbotron">
+  
         <h1><%= title %></h1>
-        <p>Welcome to
-            <%= title %>
-        </p>
-
-        <form>
+        <h3 >Feel free to contact me!</h3> 
+       
+        </div>       
+        <form class="pSec">
              <div class="form-group">
     <label for="exampleInputName2">Name</label>
     <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
   </div>
             <div class="form-group">
-                <label for="InputEmail">Email address</label>
+                <label for="InputEmail">Email </label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
             <div class="form-group">
                   <label for="Comments">Comments</label>
            <textarea class="form-control" rows="3" placeholder="Type the comments here"></textarea>
            </div>
-            <button type="submit" class="btn btn-primary btn-lg">Send</button>
+            <button type="submit" class="btn btn-primary btn-lg" onclick="myFunction()" >Send</button>
         </form>
+     
     </main>
+    <script>
+function myFunction() {
+    alert("Your message was sent!S");
+}
+</script>
+
 </body>
     <% include partials/footer.ejs %>

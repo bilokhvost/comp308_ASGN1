@@ -1,3 +1,9 @@
+/*  
+ROUTES/index.ejs
+Author: Kateryna Bilokhvost
+navigation page
+*/
+
 var express = require('express');
 var router = express.Router();
 
@@ -18,7 +24,7 @@ router.get('/projects', function(req, res, next) {
 
 /* GET services page. */
 router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Services' });
+  res.render('about', { title: 'Services' });
 });
 
 /* GET contact page. */
